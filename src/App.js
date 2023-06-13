@@ -1,5 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
+import './index.css';
+
+console.log("Header:", Header);
+console.log("Navigation", Navigation);
+console.log("Footer", Footer);
 
 function App() {
   return (
