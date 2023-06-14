@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Navigation() {
+const Navigation = () => {
     return (
         <nav className='p-5 bg-blue-300'>
             <ul className='flex justify-around'>
