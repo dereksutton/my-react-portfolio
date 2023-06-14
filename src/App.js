@@ -1,12 +1,10 @@
 import React from 'react';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
+import AboutMe from './components/AboutMe';
 import Footer from './components/Footer';
 import './index.css';
 
-console.log("Header:", Header);
-console.log("Navigation", Navigation);
-console.log("Footer", Footer);
 
 function App() {
   return (
@@ -14,7 +12,7 @@ function App() {
       <Header />
       <Navigation />
       <main>
-        {/* main content here */}
+        <AboutMe />
       </main>
       <Footer />
     </div>
