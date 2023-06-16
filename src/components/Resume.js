@@ -40,7 +40,7 @@ const Resume = () => {
                 ))}
             </div>
             <div className="mt-5 text-center">
-                <a href="../assets/DerekSutton-Resume2023.pdf" download className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                <a href="/DerekSutton-Resume2023.pdf" download className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                     Download Resume
                 </a>
             </div>
