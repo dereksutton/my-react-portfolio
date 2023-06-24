@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header';
 import Navigation from './components/Navigation';
 import AboutMe from './components/AboutMe';
@@ -10,15 +10,19 @@ import './index.css';
 
 
 const App = () => {
+
+  const [selectedSection, setSelectedSection] = useState('About Me');
+
+
   return (
     <div className="App">
       <Header />
-      <Navigation />
+      <Navigation selectedSection={selectedSection} setSelectedSection={setSelectedSection} />
       <main>
-        <AboutMe />
-        <Portfolio />
-        <Contact />
-        <Resume />
+        {selectedSection === 'About Me' && <AboutMe />}
+        {selectedSection === 'Portfolio' && <Portfolio />}
+        {selectedSection === 'Contact' && <Contact />}
+        {selectedSection === 'Resume' && <Resume />}
       </main>
       <Footer />
     </div>
