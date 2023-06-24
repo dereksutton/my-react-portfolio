@@ -1,9 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Navigation = () => {
-    // Define state variable and setter function
-    const [selectedSection, setSelectedSection] = useState('About Me');
-
+const Navigation = ({ selectedSection, setSelectedSection }) => {
     // Define the array of sections for the nav
     const sections = ['About Me', 'Portfolio', 'Contact', 'Resume'];
 
