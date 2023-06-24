@@ -1,13 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Navigation = () => {
+    // Define state variable and setter function
+    const [selectedSection, setSelectedSection] = useState('About Me');
+
+    // Define the array of sections for the nav
+    const sections = ['About Me', 'Portfolio', 'Contact', 'Resume'];
+
     return (
         <nav className='p-5 bg-blue-300'>
             <ul className='flex justify-around'>
-                <li><a href='#' className='text-blue-900 hover:text-blue-600'>About Me</a></li>
-                <li><a href='#' className='text-blue-900 hover:text-blue-600'>Portfolio</a></li>
-                <li><a href='#' className='text-blue-900 hover:text-blue-600'>Contact</a></li>
-                <li><a href='#' className='text-blue-900 hover:text-blue-600'>Resume</a></li>
+                {
+                    sections.map(section => (
+                        <li key={section}>
+                            <a
+                              href='#'
+                              className={`text-blue-900 hover:text-blue-600 ${selectedSection === section && 'highlight'}`}
+                              onClick={() => setSelectedSection(section)}
+                            >
+                              {section}
+                            </a>
+                        </li>
+                    ))
+                }
             </ul>
         </nav>
     );
