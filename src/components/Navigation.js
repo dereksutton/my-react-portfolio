@@ -5,18 +5,17 @@ const Navigation = ({ selectedSection, setSelectedSection }) => {
     const sections = ['About Me', 'Portfolio', 'Contact', 'Resume'];
 
     return (
-        <nav className='p-5 bg-blue-300'>
+        <nav className='p-5 bg-customBlack'>
             <ul className='flex justify-around'>
                 {
                     sections.map(section => (
                         <li key={section}>
-                            <a
-                              href='#'
-                              className={`text-blue-900 hover:text-blue-600 ${selectedSection === section && 'highlight'}`}
+                            <button
+                              className={`custom-font-bold text-xl text-customBlue hover:text-blue-600 ${selectedSection === section && 'highlight'}`}
                               onClick={() => setSelectedSection(section)}
                             >
                               {section}
-                            </a>
+                            </button>
                         </li>
                     ))
                 }

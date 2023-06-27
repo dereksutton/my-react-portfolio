@@ -4,9 +4,9 @@ import Headshot from '../assets/Headshot.jpg';
 const AboutMe = () => {
     return (
         <section className="flex flex-col items-center justify-center mt-12 mb-20">
-            <div className="w-11/12 sm:w-3/4 lg:w-1/2 xl:w-3/5 2xl:w-1/2 mx-auto bg-white shadow-lg rounded-lg p-8 flex flex-col md:flex-row items-center md:space-x-6">
+            <div className="w-11/12 sm:w-3/4 lg:w-1/2 xl:w-3/5 2xl:w-1/2 mx-auto bg-customBlack text-customBlue shadow-lg rounded-lg p-8 flex flex-col md:flex-row items-center md:space-x-6">
                 <div className="w-full md:w-1/2 space-y-2">
-                    <h2 className="text-2x1 custom-font-bold underline text-center md:text-left">About Me</h2>
+                    <h2 className="text-xl custom-font-bold underline text-center md:text-left">About Me</h2>
                     <p className="custom-font-reg max-w-prose text-center md:text-left">
                     <br></br>
                     I'm Derek Sutton, a Full-Stack Web Developer with a unique blend of entrepreneurial and IT recruitment experience. As the founder of Visioneer Branding, LLC, I built a successful online merchandising business from the ground up, automated its operations, and worked with a diverse range of clients, including Fortune 100 companies. My experience as an IT recruiter honed my skills in sourcing top-tier IT talent, which has recognized me as a top recruiter.
@@ -21,7 +21,7 @@ const AboutMe = () => {
             <img 
                 className="w-96 h-96 rounded-full mx-auto md:mx-0"
                 src={Headshot} 
-                alt='Image of Derek Sutton' 
+                alt='Derek Sutton' 
             />
             </div>
         </section>
