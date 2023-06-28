@@ -29,10 +29,10 @@ const Resume = () => {
     ];
 
     return (
-        <section id='resume' className="flex flex-col items-center justify-center py-4 bg-gray-100">
-            <h2 className='text-2xl font-bold mb-8'>Proficiencies</h2>
-            <div className="mt-8 mb-8">
-                <a href="/DerekSutton-Resume2023.pdf" download className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+        <section id='resume' className="flex flex-col items-center justify-center pt-4 pr-4 pl-4 pb-8 bg-gray-100">
+            <h2 className='text-2xl custom-font-bold underline text-center md:text-left'>Proficiencies</h2>
+            <div className="mt-8 mb-7">
+                <a href="/DerekSutton-Resume2023.pdf" download className="bg-blue-500 hover:bg-blue-700 text-customBlack hover:text-white font-bold py-2 px-4 rounded">
                     Download Resume
                 </a>
             </div>

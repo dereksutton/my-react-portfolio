@@ -5,7 +5,7 @@ import twitterLogo from '../assets/Twitter-FooterLogo.png';
 
 const Footer = () => {
     return (
-        <footer className='py-5 bg-white text-center text-white fixed bottom-0 w-full flex items-center justify-center flex-col space-y-4'>
+        <footer className='py-2 bg-white text-center text-white fixed bottom-0 w-full flex items-center justify-center flex-col space-y-4'>
             <div className="flex space-x-8">
                 <a href="https://github.com/dereksutton" target="_blank" rel="noreferrer">
                     <img src={githubLogo} alt="GitHub" className="w-10 h-10" />

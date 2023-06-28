@@ -5,7 +5,7 @@ const Navigation = ({ selectedSection, setSelectedSection }) => {
     const sections = ['About Me', 'Portfolio', 'Contact', 'Resume'];
 
     return (
-        <nav className='p-5 bg-customBlack'>
+        <nav className='pb-3 bg-customBlack border-b-4 border-customBlue'>
             <ul className='flex justify-around'>
                 {
                     sections.map(section => (
