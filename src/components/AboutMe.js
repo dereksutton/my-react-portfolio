@@ -20,11 +20,11 @@ const AboutMe = () => {
                     <br></br>
                     </p>
                 </div>
-            <img 
-                className="w-96 h-96 rounded-full mx-auto md:mx-0 border-4 border-customBlue"
-                src={Headshot} 
-                alt='Derek Sutton' 
-            />
+                <img 
+                    className="w-full h-auto md:w-96 md:h-96 rounded-full mx-auto md:mx-0 border-4 border-customBlue"
+                    src={Headshot} 
+                    alt='Derek Sutton' 
+                />
             </div>
         </section>
     );
