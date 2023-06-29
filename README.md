@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Derek Sutton - Full Stack Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+Welcome to the GitHub repository of my personal developer portfolio website. As a full-stack web developer with a unique blend of entrepreneurial and IT recruitment experience, I have created this website to showcase my skills, projects, and provide ways to connect with me.
 
-## Available Scripts
+The website is built using React and TailwindCSS for styling, allowing for a responsive and visually pleasing user experience.
 
-In the project directory, you can run:
+## Features
+1. **About Me**: This section provides a comprehensive background about my experience, skills, and interests.
+2. **Portfolio**: Showcases the projects that I have worked on. Each project card contains a brief description of the project along with relevant technologies used and links to the live site and GitHub repository.
+3. **Contact**: A functional contact form for users to reach out to me.
+4. **Resume**: Showcases the technologies that I'm proficient with, along with a downloadable updated version of my professional resume.
 
-### `npm start`
+## Technologies Used
+- React
+- TailwindCSS
+- Node.js
+- Express.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deployment
+The website is deployed on Heroku and can be accessed at [Portfolio](https://fast-coast-07824-cf09a83cc55c.herokuapp.com/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Future Development
+Future updates will include more projects as I continue to grow as a developer, as well as any new skills or technologies I learn. I also plan to continue improving upon the UI.
 
-### `npm test`
+## Contributors
+- Georgia Tech Professional Education Full-Stack Coding Bootcamp for the knowledge, skills, and instructions for this assignment.
+- Built by me, [Derek Sutton](https://github.com/dereksutton).
+- Extra educational resource from this [Udemy Course](https://www.udemy.com/course/react-the-complete-guide-incl-redux/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
+![MIT](https://img.shields.io/badge/license/license-MIT-blue.svg)
+[MIT](https://opensource.org/licenses/MIT)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+Application designed and built by [github/dereksutton](https://github.com/dereksutton). You can email me [here](mailto:dereksutton86@gmail.com).
