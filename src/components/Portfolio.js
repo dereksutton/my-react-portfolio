@@ -1,14 +1,20 @@
 import React, { useState } from 'react';
 import Project from './Project';
+import InterviewBuddy from '../assets/InterviewBuddy-Screenshot.png';
 import FeastFindr from '../assets/FeastFindr-Screenshot.png';
 import NightOwl from '../assets/NightOwl-Screenshot.png';
 import WeatherFetcher from '../assets/WeatherFetcher-Screenshot.png';
 import TechBlog from '../assets/TechBlog-Screenshot.png'
-import MuseumCandy from '../assets/MuseumCandy-Screenshot.png';
 import DunderMifflin from '../assets/DunderMifflin-Screenshot.png';
 
 const Portfolio = () => {
     const [projects] = useState([
+        {
+            name: 'Interview Buddy',
+            image: InterviewBuddy,
+            link: 'https://www.youtube.com/watch?v=x6p0X_8aBPQ',
+            github: 'https://github.com/jmfarthin/interview_buddy'
+        },
         {
             name: 'FeastFindr',
             image: FeastFindr,
@@ -32,12 +38,6 @@ const Portfolio = () => {
             image: TechBlog,
             link: 'https://shielded-earth-13580-f3500b139b12.herokuapp.com/',
             github: 'https://github.com/dereksutton/mvc-tech-blog'
-        },
-        {
-            name: 'Museum of Candy',
-            image: MuseumCandy,
-            link: 'https://dereksutton.github.io/museum-of-candy/',
-            github: 'https://github.com/dereksutton/museum-of-candy'
         },
         {
             name: 'Dunder Mifflin',
